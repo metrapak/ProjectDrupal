@@ -468,6 +468,7 @@ display:
         type: full
         options:
           offset: 0
+          pagination_heading_level: h4
           items_per_page: 50
           total_pages: null
           id: 0
@@ -485,7 +486,6 @@ display:
             offset: false
             offset_label: Offset
           quantity: 9
-          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:
@@ -593,12 +593,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-              store_admin: '0'
-              api_consumer: '0'
-              customer_service: '0'
-              site_admin: '0'
             placeholder: ''
           is_grouped: false
           group_info:
@@ -640,8 +634,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -684,12 +676,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-              store_admin: '0'
-              api_consumer: '0'
-              customer_service: '0'
-              site_admin: '0'
             placeholder: ''
           is_grouped: false
           group_info:
@@ -731,12 +717,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-              store_admin: '0'
-              api_consumer: '0'
-              customer_service: '0'
-              site_admin: '0'
           is_grouped: false
           group_info:
             label: ''
@@ -822,6 +802,7 @@ display:
           empty_table: true
           caption: ''
           description: ''
+          class: ''
       row:
         type: fields
       query:

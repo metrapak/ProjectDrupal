@@ -9,6 +9,6 @@ label: Simple
 traits: {  }
 locked: false
 description: ''
-variationType: simple
+variationTypes: {  }
 multipleVariations: false
 injectVariationFields: true

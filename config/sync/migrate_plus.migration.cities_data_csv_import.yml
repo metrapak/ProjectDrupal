@@ -30,6 +30,8 @@ process:
 destination:
   plugin: 'entity:taxonomy_term'
   default_bundle: city
+idMap: {  }
 migration_dependencies:
   required:
     - countries_data_csv_import
+include: null

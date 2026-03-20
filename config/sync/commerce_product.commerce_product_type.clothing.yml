@@ -9,6 +9,6 @@ label: Clothing
 traits: {  }
 locked: false
 description: ''
-variationType: clothing
+variationTypes: {  }
 multipleVariations: true
 injectVariationFields: true

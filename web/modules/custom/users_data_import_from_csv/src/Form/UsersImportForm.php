@@ -22,10 +22,7 @@ class UsersImportForm extends FormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $form['users_export'] = array(
-      '#type' => 'submit',
-      '#value' => $this->t('Import data and create users '),
-    );
+    $form['users_export'] = ['#type' => 'submit', '#value' => $this->t('Import data and create users ')];
 
     return $form;
   }

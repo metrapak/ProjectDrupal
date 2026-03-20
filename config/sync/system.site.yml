@@ -2,7 +2,7 @@ _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
 langcode: en
 uuid: 398d0000-8d9e-47db-a2c2-0993fb4fdb27
-name: pet project
+name: 'pet project'
 mail: pokachajloartem@gmail.com
 slogan: ''
 page:

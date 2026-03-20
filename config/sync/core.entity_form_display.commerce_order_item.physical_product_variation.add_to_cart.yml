@@ -24,4 +24,5 @@ hidden:
   adjustments: true
   created: true
   quantity: true
+  total_price: true
   unit_price: true

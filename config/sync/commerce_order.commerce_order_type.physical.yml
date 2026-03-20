@@ -21,8 +21,10 @@ label: Physical
 traits: {  }
 locked: false
 workflow: order_fulfillment
+showOrderEditLinks: null
 numberPattern: null
 refresh_mode: customer
 refresh_frequency: 300
 sendReceipt: true
 receiptBcc: ''
+receiptSubject: ''

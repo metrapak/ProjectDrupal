@@ -18,12 +18,13 @@
         "php": ">=8.1",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
-        "drupal/admin_toolbar": "^3.0",
-        "drupal/color": "^1.0",
+        "drupal/admin_toolbar": "^3.6",
+        "drupal/color": "^2.0@alpha",
         "drupal/color_field": "^3.0",
         "drupal/commerce": "^3.3",
-        "drupal/core-composer-scaffold": "^10.0",
-        "drupal/core-recommended": "^10.0",
+        "drupal/core-composer-scaffold": "^11",
+        "drupal/core-project-message": "^11",
+        "drupal/core-recommended": "^11",
         "drupal/devel": "^5.0",
         "drupal/hook_event_dispatcher": "^4.0",
         "drupal/migrate_plus": "^6.0",
@@ -37,7 +38,8 @@
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
-        "drupal/core-dev": "^10.0"
+        "drupal/core-dev": "^11",
+        "palantirnet/drupal-rector": "^0.21.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -51,6 +53,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/console-extend-plugin": true,
             "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
             "tbachert/spi": true,

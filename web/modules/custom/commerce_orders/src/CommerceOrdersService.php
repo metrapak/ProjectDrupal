@@ -18,21 +18,6 @@ use Symfony\Component\HttpFoundation\Request;
 class CommerceOrdersService implements CommerceOrdersInterface{
 
   /**
-   * The entity type manager service instance.
-   *
-   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
-   *   The entity type manager.
-   */
-  protected EntityTypeManagerInterface $entityTypeManager;
-
-  /**
-   * Database connection.
-   *
-   * @var \Drupal\Core\Database\Connection
-   */
-  protected Connection $connection;
-
-  /**
    * CommerceOrdersService constructor.
    *
    * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entityTypeManager
@@ -40,9 +25,17 @@ class CommerceOrdersService implements CommerceOrdersInterface{
    * @param \Drupal\Core\Database\Connection $connection
    *   Database connection.
    */
-  public function __construct(EntityTypeManagerInterface $entityTypeManager, Connection $connection) {
-    $this->entityTypeManager = $entityTypeManager;
-    $this->connection = $connection;
+  public function __construct(
+      /**
+       * The entity type manager service instance.
+       */
+      protected EntityTypeManagerInterface $entityTypeManager,
+      /**
+       * Database connection.
+       */
+      protected Connection $connection
+  )
+  {
   }
 
   /**

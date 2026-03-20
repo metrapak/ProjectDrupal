@@ -21,4 +21,6 @@ process:
 destination:
   plugin: 'entity:taxonomy_term'
   default_bundle: country
+idMap: {  }
 migration_dependencies: null
+include: null

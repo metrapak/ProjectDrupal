@@ -15,20 +15,18 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class CommerceOrdersFilterForm extends FormBase {
 
   /**
-   * The EntityTypeManager.
-   *
-   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
-   */
-  protected EntityTypeManagerInterface $entityTypeManager;
-
-  /**
    * CommerceOrdersFilterForm constructor.
    *
-   * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager
+   * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entityTypeManager
    *   Entity type manager service.
    */
-  final public function __construct(EntityTypeManagerInterface $entity_type_manager) {
-    $this->entityTypeManager = $entity_type_manager;
+  final public function __construct(
+      /**
+       * The EntityTypeManager.
+       */
+      protected EntityTypeManagerInterface $entityTypeManager
+  )
+  {
   }
 
   /**

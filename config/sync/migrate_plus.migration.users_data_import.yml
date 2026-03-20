@@ -35,4 +35,6 @@ process:
 destination:
   plugin: 'entity:user'
   md5_passwords: true
+idMap: {  }
 migration_dependencies: null
+include: null

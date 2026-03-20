@@ -13,20 +13,15 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 class CommerceOrdersSubscriber implements EventSubscriberInterface {
 
   /**
-   * The module handler.
-   *
-   * @var \Drupal\Core\Extension\ModuleHandlerInterface
-   */
-  protected ModuleHandlerInterface $moduleHandler;
-
-  /**
    * CommerceOrdersSubscriber constructor.
    *
-   * @param \Drupal\Core\Extension\ModuleHandlerInterface $module_handler
+   * @param ModuleHandlerInterface $moduleHandler
    *   The module handler service.
    */
-  public function __construct(ModuleHandlerInterface $module_handler) {
-    $this->moduleHandler = $module_handler;
+  public function __construct(
+      protected ModuleHandlerInterface $moduleHandler
+  )
+  {
   }
 
   /**
@@ -34,7 +29,7 @@ class CommerceOrdersSubscriber implements EventSubscriberInterface {
    */
   public static function getSubscribedEvents() {
     return [
-//      ThemeHookEvents::THEME => 'theme',
+      ThemeHookEvents::THEME => 'theme',
     ];
   }
 
