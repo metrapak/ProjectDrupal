@@ -15,15 +15,15 @@ bundle: color
 mode: default
 content:
   field_color:
-    weight: 0
+    type: color_field_formatter_swatch
     label: hidden
     settings:
       shape: square
       width: '30'
       height: '30'
-      opacity: '1'
+      opacity: true
     third_party_settings: {  }
-    type: color_field_formatter_swatch
+    weight: 0
     region: content
 hidden:
   name: true

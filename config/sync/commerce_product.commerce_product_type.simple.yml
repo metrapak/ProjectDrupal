@@ -6,9 +6,9 @@ _core:
   default_config_hash: mvzYmfwxSyvKB7c8oPntH7tTMzMwbxUaZAwQvvurDIg
 id: simple
 label: Simple
+traits: {  }
+locked: false
 description: ''
 variationType: simple
 multipleVariations: false
 injectVariationFields: true
-traits: {  }
-locked: false

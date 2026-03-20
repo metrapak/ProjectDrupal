@@ -23,7 +23,6 @@ function ap_task94_theme($existing, $type, $theme, $path )
 {
   return [
     'current_date' => [
-      'path' => drupal_get_path('module', 'ap_task94') . '/templates',
     ],
   ];
 

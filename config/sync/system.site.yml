@@ -1,5 +1,8 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
 uuid: 398d0000-8d9e-47db-a2c2-0993fb4fdb27
-name: test-project
+name: pet project
 mail: pokachajloartem@gmail.com
 slogan: ''
 page:
@@ -8,7 +11,5 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: null

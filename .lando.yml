@@ -1,30 +1,31 @@
-name: drupal_commerce                                             # имя проекта
-recipe: drupal9                                                   # версия Drupal
-services:                                                         # кастомная конфигурация сервисов/контейнеров
+name: drupal-commerce
+recipe: drupal11
+config:
+  webroot: web
+  php: '8.4'
+  composer_version: '2-latest'
+  xdebug: debug
+  drush: ^13
+  database: mysql:8.4
+
+services:
   appserver:
-    webroot: web
-    xdebug: debug
-    php: '7.4'                                         # сервис приложения который создается по дефолту
-    composer_version: '1.10.1'                                    # версия Composer
-    overrides:                                                    # перезапись дефолтных настроек
+    overrides:
       environment:
-        DRUSH_OPTIONS_URI: "http://drupal_commerce.lndo.site:8000/"    # подставляем наш локальный URI при запуске команды drush uli
+        DRUSH_OPTIONS_URI: "http://drupal-commerce.lndo.site/"
+
   phpmyadmin:
     type: phpmyadmin
-    user: drupal9
-    password: drupal9
-    database: drupal9
     hosts:
       - database
-proxy:                                                            # настройки прокси
-  appserver:                                                      # имя сервиса/контейнера
-    - drupal_commerce.lndo.site                                         # URL адрес сайта tlv-siseveeb.lndo.site
-  phpmyadmin:
-    - pma.drupal_commerce.lndo.site
-tooling:
-  php:
-    service: phpcli
+
+proxy:
   appserver:
-    cmd:
-      - "/app/vendor/bin/drupal"
-      - "--root=/app/web"
+    - drupal-commerce.lndo.site
+  phpmyadmin:
+    - pma.drupal-commerce.lndo.site
+
+tooling:
+  drupal:
+    service: appserver
+    cmd: /app/vendor/bin/drupal --root=/app/web

@@ -13,7 +13,8 @@ backend: search_api_db
 backend_config:
   database: 'default:default'
   min_chars: 1
-  partial_matches: false
+  phrase: disabled
   autocomplete:
     suggest_suffix: true
     suggest_words: true
+  partial_matches: false

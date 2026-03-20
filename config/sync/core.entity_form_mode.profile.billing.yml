@@ -2,14 +2,15 @@ uuid: 2f038ae4-ddc9-4736-8dd7-fa34c8f0d725
 langcode: en
 status: true
 dependencies:
+  module:
+    - profile
   enforced:
     module:
       - commerce_order
-  module:
-    - profile
 _core:
   default_config_hash: yeGwCxbA5dBAS_3eBkfaVrbxkASEM357dkjPZShKiR4
 id: profile.billing
 label: Billing
+description: ''
 targetEntityType: profile
 cache: true

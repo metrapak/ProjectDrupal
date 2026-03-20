@@ -8,5 +8,6 @@ _core:
   default_config_hash: 7sU6r1KOGslz_556Gc-2zPS4SBjuQso0h2GFP3zzqyk
 id: commerce_product_variation.catalog
 label: Catalog
+description: ''
 targetEntityType: commerce_product_variation
 cache: true

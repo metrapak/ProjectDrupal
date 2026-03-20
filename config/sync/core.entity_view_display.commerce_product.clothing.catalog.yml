@@ -17,13 +17,13 @@ bundle: clothing
 mode: catalog
 content:
   title:
-    label: hidden
     type: string
-    weight: 0
-    region: content
+    label: hidden
     settings:
       link_to_entity: true
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   body: true
   created: true

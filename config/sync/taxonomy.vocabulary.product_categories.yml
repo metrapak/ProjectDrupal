@@ -6,5 +6,6 @@ _core:
   default_config_hash: sKyDNaF8plhgR7pH9Xz_08N1UaiHwrR3g_h6K1jzn0A
 name: 'Product categories'
 vid: product_categories
-description: ''
+description: null
 weight: 0
+new_revision: false

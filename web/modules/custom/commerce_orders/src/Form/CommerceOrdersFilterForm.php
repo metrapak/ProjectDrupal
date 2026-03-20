@@ -27,7 +27,7 @@ class CommerceOrdersFilterForm extends FormBase {
    * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager
    *   Entity type manager service.
    */
-  public function __construct(EntityTypeManagerInterface $entity_type_manager) {
+  final public function __construct(EntityTypeManagerInterface $entity_type_manager) {
     $this->entityTypeManager = $entity_type_manager;
   }
 

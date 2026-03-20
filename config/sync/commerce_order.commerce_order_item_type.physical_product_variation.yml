@@ -9,9 +9,9 @@ third_party_settings:
     taxable_type: physical_goods
 _core:
   default_config_hash: _E0qD7fBNdAAmaAaRhE7B9r-VQiFGj2_0xUfNu2JgcI
-label: 'Physical (Product variation)'
 id: physical_product_variation
-purchasableEntityType: commerce_product_variation
-orderType: physical
+label: 'Physical (Product variation)'
 traits: {  }
 locked: false
+purchasableEntityType: commerce_product_variation
+orderType: physical

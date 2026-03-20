@@ -2,5 +2,5 @@ name: Users data import from csv
 description: Provides  Users data import from csv through the batch
 type: module
 version: 1.0
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10 || ^11
+package: 'Custom'

@@ -4,7 +4,7 @@ namespace Drupal\commerce_orders\EventSubscriber;
 
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\core_event_dispatcher\Event\Theme\ThemeEvent;
-use Drupal\hook_event_dispatcher\HookEventDispatcherInterface;
+use Drupal\core_event_dispatcher\ThemeHookEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
@@ -34,14 +34,14 @@ class CommerceOrdersSubscriber implements EventSubscriberInterface {
    */
   public static function getSubscribedEvents() {
     return [
-      HookEventDispatcherInterface::THEME => 'theme',
+//      ThemeHookEvents::THEME => 'theme',
     ];
   }
 
   /**
    * Hook theme.
    *
-   * @param \Drupal\core_event_dispatcher\Event\Theme\ThemeEvent $event
+   * @param ThemeEvent $event
    *   The event.
    */
   public function theme(ThemeEvent $event) {
@@ -53,7 +53,7 @@ class CommerceOrdersSubscriber implements EventSubscriberInterface {
           'title' => NULL,
           'filter' => NULL,
           'view' => NULL,
-          'orders_statistics' => NULL
+          'orders_statistics' => NULL,
         ],
         'path' => $path,
       ],

@@ -23,7 +23,7 @@ field_settings:
     datasource_id: 'entity:commerce_product'
     property_path: 'field_brand:entity:name'
     type: text
-    boost: !!float 2
+    boost: 2.0
     dependencies:
       config:
         - field.storage.commerce_product.field_brand
@@ -34,7 +34,7 @@ field_settings:
     datasource_id: 'entity:commerce_product'
     property_path: 'field_product_categories:entity:name'
     type: text
-    boost: !!float 2
+    boost: 2.0
     dependencies:
       config:
         - field.storage.commerce_product.field_product_categories
@@ -79,7 +79,7 @@ field_settings:
     datasource_id: 'entity:commerce_product'
     property_path: 'field_special_categories:entity:name'
     type: text
-    boost: !!float 2
+    boost: 2.0
     dependencies:
       config:
         - field.storage.commerce_product.field_special_categories
@@ -90,7 +90,7 @@ field_settings:
     datasource_id: 'entity:commerce_product'
     property_path: title
     type: text
-    boost: !!float 5
+    boost: 5.0
   title_1:
     label: 'Title (for sorting)'
     datasource_id: 'entity:commerce_product'
@@ -114,11 +114,14 @@ processor_settings:
   aggregated_field: {  }
   entity_status: {  }
   hierarchy:
-    fields:
-      field_product_categories: taxonomy_term-parent
     weights:
       preprocess_index: -45
+    fields:
+      field_product_categories: taxonomy_term-parent
   ignorecase:
+    weights:
+      preprocess_index: -20
+      preprocess_query: -20
     all_fields: false
     fields:
       - field_brand
@@ -126,15 +129,12 @@ processor_settings:
       - field_special_categories
       - title
       - type
-    weights:
-      preprocess_index: -20
-      preprocess_query: -20
   rendered_item: {  }
 tracker_settings:
   default:
     indexing_order: fifo
 options:
-  index_directly: true
   cron_limit: 50
+  index_directly: true
   track_changes_in_references: true
 server: database

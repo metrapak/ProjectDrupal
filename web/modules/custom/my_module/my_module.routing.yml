@@ -1,8 +1,0 @@
-
-my_module.default_controller_myModule:
-  path: '/my_module/myModule'
-  defaults:
-    _controller: '\Drupal\my_module\Controller\DefaultController::myModule'
-    _title: 'My Module Controller'
-  requirements:
-    _permission: 'access content'

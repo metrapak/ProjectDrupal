@@ -5,18 +5,15 @@
  * Contains ap_task92.module.
  */
 
-use Drupal\Core\Routing\RouteMatchInterface;
-
 /**
  * Implements hook_theme().
  */
 
-function ap_task92_theme($existing, $type, $theme, $path )
+function ap_task92_theme($existing, $type, $theme, $path): array
 {
   return [
     'hello_world' => [
       'variables' => ['message' => NULL],
-      'path' => drupal_get_path('module', 'ap_task92') . '/templates',
     ],
   ];
 

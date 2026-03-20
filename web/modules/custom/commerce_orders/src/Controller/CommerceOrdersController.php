@@ -45,7 +45,7 @@ class CommerceOrdersController extends ControllerBase {
    * @param \Drupal\commerce_orders\CommerceOrdersService $commerceOrdersService
    *   Commerce orders service.
    */
-  public function __construct(
+  final public function __construct(
     Renderer $renderer,
     EntityTypeManagerInterface $entity_type_manager,
     CommerceOrdersService $commerce_orders_service) {

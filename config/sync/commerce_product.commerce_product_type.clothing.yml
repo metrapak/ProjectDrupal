@@ -6,9 +6,9 @@ _core:
   default_config_hash: YhOM0jcATwJkv-haxTHjYz_S2grlzmTfC64NUyMhhNI
 id: clothing
 label: Clothing
+traits: {  }
+locked: false
 description: ''
 variationType: clothing
 multipleVariations: true
 injectVariationFields: true
-traits: {  }
-locked: false

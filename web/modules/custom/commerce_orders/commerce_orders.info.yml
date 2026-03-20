@@ -1,8 +1,9 @@
 name: 'commerce_orders'
 type: module
 description: 'Module for commerce_orders'
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10 || ^11
 package: 'Custom'
-regions:
-  content: 'Content'
+dependencies:
+  - hook_event_dispatcher:hook_event_dispatcher
+  - hook_event_dispatcher:core_event_dispatcher
+

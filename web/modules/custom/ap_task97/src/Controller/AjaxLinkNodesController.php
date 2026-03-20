@@ -9,6 +9,7 @@ use Drupal\Core\Ajax\OpenModalDialogCommand;
  * Class AjaxLinkNodesController.
  */
 class AjaxLinkNodesController extends ControllerBase  {
+
   /**
    * AjaxlinkAction.
    *
@@ -17,7 +18,7 @@ class AjaxLinkNodesController extends ControllerBase  {
    */
   public function ajaxLinkAction() {
 
-    $query = \Drupal::entityQuery('node')->count();
+    $query = \Drupal::entityQuery('node')->accessCheck(FALSE)->count();
     $count = $query->execute();
 
     $content['#attached']['library'][] = 'core/drupal.dialog.ajax';

@@ -1,135 +1,135 @@
+_core:
+  default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ
 definitions:
   'catalog:41252968-6d82-4760-b0a5-8c2e15841f7a':
-    enabled: false
     menu_name: main
     parent: ''
-    expanded: true
     weight: -50
-  'catalog:66079146-8ff2-41a5-b4e2-cad8ebedf95b':
+    expanded: true
     enabled: false
+  'catalog:66079146-8ff2-41a5-b4e2-cad8ebedf95b':
     menu_name: main
     parent: ''
     weight: -49
     expanded: true
-  standard__front_page:
     enabled: false
+  standard__front_page:
     menu_name: main
     parent: ''
     weight: -48
     expanded: false
-  'catalog:d52448c0-22c5-4a62-995c-e09c881a3f67':
     enabled: false
+  'catalog:d52448c0-22c5-4a62-995c-e09c881a3f67':
     menu_name: main
     parent: ''
     weight: -47
     expanded: true
-  'catalog:a2023356-68c3-4d9d-b664-0cbf4faae6db':
     enabled: false
+  'catalog:a2023356-68c3-4d9d-b664-0cbf4faae6db':
     menu_name: main
     parent: ''
     weight: -46
     expanded: true
-  'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd':
     enabled: false
+  'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd':
     menu_name: main
     parent: ''
     weight: -45
     expanded: true
-  'catalog:f61537d9-c10b-4f93-81d7-f5f29d355c1e':
     enabled: false
+  'catalog:f61537d9-c10b-4f93-81d7-f5f29d355c1e':
     menu_name: main
     parent: ''
     weight: -44
     expanded: true
+    enabled: false
   'catalog:44d4b889-953e-4542-be92-d026af6d62c6':
-    enabled: false
     menu_name: main
     parent: 'catalog:66079146-8ff2-41a5-b4e2-cad8ebedf95b'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:ce786350-a6c5-44b4-8800-13da5bae619b':
-    enabled: false
     menu_name: main
     parent: 'catalog:66079146-8ff2-41a5-b4e2-cad8ebedf95b'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:23238452-1f0f-44df-885b-037f8ecddd0b':
-    enabled: false
     menu_name: main
     parent: 'catalog:66079146-8ff2-41a5-b4e2-cad8ebedf95b'
     weight: 0
     expanded: true
-  'catalog:d3e09fd0-c364-4c96-a41a-a2f14fda6a37':
     enabled: false
+  'catalog:d3e09fd0-c364-4c96-a41a-a2f14fda6a37':
     menu_name: main
     parent: 'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd'
     weight: 0
     expanded: true
-  'catalog:c6c32afc-a96b-4d8c-af32-8ce1ffb5416a':
     enabled: false
+  'catalog:c6c32afc-a96b-4d8c-af32-8ce1ffb5416a':
     menu_name: main
     parent: 'catalog:d3e09fd0-c364-4c96-a41a-a2f14fda6a37'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:9836e79c-08b7-4e6a-a719-c9b30c54fc29':
-    enabled: false
     menu_name: main
     parent: 'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:3fada410-028e-40a4-bec5-b175fc5372ac':
-    enabled: false
     menu_name: main
     parent: 'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:44e2287a-934b-484d-b342-151530af4a0d':
-    enabled: false
     menu_name: main
     parent: 'catalog:3fada410-028e-40a4-bec5-b175fc5372ac'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:a4dfc396-e34a-4741-9ed4-4898efebab6d':
-    enabled: false
     menu_name: main
     parent: 'catalog:3fada410-028e-40a4-bec5-b175fc5372ac'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:0d2f533f-c6c9-4e83-9105-e534aa0f06bc':
-    enabled: false
     menu_name: main
     parent: 'catalog:3fada410-028e-40a4-bec5-b175fc5372ac'
     weight: 0
     expanded: true
+    enabled: false
   'catalog:69235e00-ba8d-4ef6-b32e-b272b51fb45d':
-    enabled: false
     menu_name: main
     parent: 'catalog:3fada410-028e-40a4-bec5-b175fc5372ac'
     weight: 0
     expanded: true
-  'catalog:aa046f49-a4cf-4278-840a-2f0e6646c407':
     enabled: false
+  'catalog:aa046f49-a4cf-4278-840a-2f0e6646c407':
     menu_name: main
     parent: 'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd'
     weight: 0
     expanded: true
-  'catalog:fc14b667-b68d-417a-8f42-a4ec956190f1':
     enabled: false
+  'catalog:fc14b667-b68d-417a-8f42-a4ec956190f1':
     menu_name: main
     parent: 'catalog:aa046f49-a4cf-4278-840a-2f0e6646c407'
     weight: 0
     expanded: true
-  'catalog:c3f0cb56-1b78-429d-a310-f40ae3915953':
     enabled: false
+  'catalog:c3f0cb56-1b78-429d-a310-f40ae3915953':
     menu_name: main
     parent: 'catalog:1cdb9879-80aa-4534-99f3-c3a09b851edd'
     weight: 0
     expanded: true
-  'catalog:caa5a6ba-d55d-4fec-9afa-cef4e8197427':
     enabled: false
+  'catalog:caa5a6ba-d55d-4fec-9afa-cef4e8197427':
     menu_name: main
     parent: 'catalog:c3f0cb56-1b78-429d-a310-f40ae3915953'
     weight: 0
     expanded: true
-_core:
-  default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ
+    enabled: false

@@ -1,18 +1,21 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   address: 0
+  ap_task92: 0
+  ap_task94: 0
+  ap_task97: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
-  ckeditor: 0
   color: 0
   color_field: 0
   comment: 0
   commerce: 0
   commerce_cart: 0
   commerce_checkout: 0
-  commerce_demo: 0
   commerce_number_pattern: 0
   commerce_order: 0
   commerce_orders: 0
@@ -51,16 +54,16 @@ module:
   migrate_plus: 0
   migrate_source_csv: 0
   migrate_tools: 0
+  mysql: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  phpass: 0
   physical: 0
   preprocess_event_dispatcher: 0
   profile: 0
-  quickedit: 0
-  rdf: 0
   search: 0
   search_api: 0
   search_api_db: 0
@@ -71,15 +74,13 @@ module:
   text: 0
   token: 0
   toolbar: 0
-  tour: 0
+  update: 0
+  upgrade_status: 0
   user: 0
   users_data_import_from_csv: 0
   views_ui: 0
   views: 10
   standard: 1000
 theme:
-  bartik: 0
-  seven: 0
+  claro: 0
 profile: standard
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

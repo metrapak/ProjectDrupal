@@ -19,13 +19,13 @@ bundle: simple
 mode: default
 content:
   field_images:
+    type: image_image
     weight: 4
+    region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    type: image_image
-    region: content
   list_price:
     type: commerce_list_price
     weight: 1
@@ -56,11 +56,11 @@ content:
   weight:
     type: physical_measurement_default
     weight: 3
+    region: content
     settings:
       default_unit: ''
       allow_unit_change: true
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   uid: true

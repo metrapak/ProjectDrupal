@@ -1,6 +1,5 @@
 name: 'ap_task92'
 type: module
 description: 'Module with two Plugins'
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10 || ^11
 package: 'Custom'

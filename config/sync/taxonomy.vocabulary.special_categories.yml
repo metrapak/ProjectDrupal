@@ -6,5 +6,6 @@ _core:
   default_config_hash: S7k_JqXLLyjWl9uZ95iSgvlb145gUJ9h22yEeuHK4mA
 name: 'Special categories'
 vid: special_categories
-description: ''
+description: null
 weight: 0
+new_revision: false
