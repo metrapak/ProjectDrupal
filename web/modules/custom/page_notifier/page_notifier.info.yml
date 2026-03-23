@@ -1,0 +1,7 @@
+name: 'Page Notifier'
+type: module
+description: 'Sends a message when a new page node is created.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node
