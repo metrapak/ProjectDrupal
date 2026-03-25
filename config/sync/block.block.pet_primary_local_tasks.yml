@@ -1,0 +1,22 @@
+uuid: 20d6207d-b406-4fd8-8804-b9761fa14b1f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pet
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: pet_primary_local_tasks
+theme: pet
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

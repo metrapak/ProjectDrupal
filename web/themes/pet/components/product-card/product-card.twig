@@ -1,0 +1,19 @@
+<div {{ attributes.addClass('c-product-card') }}>
+  <div class="c-product-card__image">
+    {{ content.image }}
+  </div>
+
+  <div class="c-product-card__content">
+    <h3 class="c-product-card__title">
+      {{ content.title }}
+    </h3>
+
+    <span class="c-product-card__price">
+      {{ content.price }}
+    </span>
+
+    <button class="c-product-card__button">
+      {{ 'Add to cart'|t }}
+    </button>
+  </div>
+</div>

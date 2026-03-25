@@ -1,0 +1,4 @@
+name: My Pet Theme
+type: theme
+base theme: claro
+core_version_requirement: ^11

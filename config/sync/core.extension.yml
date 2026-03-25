@@ -2,6 +2,9 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   address: 0
+  ai: 0
+  ai_generation: 0
+  ai_provider_ollama: 0
   ap_task92: 0
   ap_task94: 0
   ap_task97: 0
@@ -42,11 +45,15 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  gemini_provider: 0
   help: 0
   history: 0
   hook_event_dispatcher: 0
   image: 0
   inline_entity_form: 0
+  key: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -55,9 +62,11 @@ module:
   migrate_source_csv: 0
   migrate_tools: 0
   mysql: 0
+  navigation: 0
   node: 0
   options: 0
   page_cache: 0
+  page_notifier: 0
   path: 0
   path_alias: 0
   phpass: 0
@@ -83,4 +92,6 @@ module:
   standard: 1000
 theme:
   claro: 0
+  stable9: 0
+  pet: 0
 profile: standard

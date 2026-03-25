@@ -1,0 +1,11 @@
+{# {% extends "field--text.html.twig" %} #}
+
+<div{{ attributes.addClass('field__item') }}>
+  {{ include('pet:product-card', {
+    content: {
+      title: 'test',
+      price: 100,
+      image: ''
+    }
+  }, with_context = false) }}
+</div>

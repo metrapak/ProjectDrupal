@@ -1,0 +1,22 @@
+uuid: 592eb23a-c909-4963-8960-38b1b570a93e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - pet
+_core:
+  default_config_hash: jccFSSVqV0WCDb6NtML1VWAWTtDbZ-zn5YgTRMgMrIM
+id: pet_help
+theme: pet
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
