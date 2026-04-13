@@ -10,6 +10,10 @@ config:
 
 services:
   appserver:
+    build_as_root:
+      - mkdir -p /app/web/sites/simpletest/browser_output
+      - chmod -R 777 /app/web/sites/simpletest
+      - chown -R www-data:www-data /app/web/sites/simpletest
     overrides:
       environment:
         DRUSH_OPTIONS_URI: "http://drupal-commerce.lndo.site/"
@@ -29,3 +33,8 @@ tooling:
   drupal:
     service: appserver
     cmd: /app/vendor/bin/drupal --root=/app/web
+
+  phpunit:
+    service: appserver
+    description: Run PHPUnit tests
+    cmd: /app/vendor/bin/phpunit
