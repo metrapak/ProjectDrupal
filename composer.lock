@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82029f61f48ae298ff9da8f1efb551cc",
+    "content-hash": "c3d2fb029cb7c7c10e1cb897aebd12c5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1486,6 +1486,96 @@
             "time": "2026-01-29T07:11:08+00:00"
         },
         {
+            "name": "doctrine/inflector",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/6d6c96277ea252fc1304627204c3d5e6e15faa3b",
+                "reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^12.0 || ^13.0",
+                "phpstan/phpstan": "^1.12 || ^2.0",
+                "phpstan/phpstan-phpunit": "^1.4 || ^2.0",
+                "phpstan/phpstan-strict-rules": "^1.6 || ^2.0",
+                "phpunit/phpunit": "^8.5 || ^12.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Inflector\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
+            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
+            "keywords": [
+                "inflection",
+                "inflector",
+                "lowercase",
+                "manipulation",
+                "php",
+                "plural",
+                "singular",
+                "strings",
+                "uppercase",
+                "words"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/inflector/issues",
+                "source": "https://github.com/doctrine/inflector/tree/2.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-10T19:31:58+00:00"
+        },
+        {
             "name": "doctrine/lexer",
             "version": "3.0.1",
             "source": {
@@ -2806,6 +2896,243 @@
             }
         },
         {
+            "name": "drupal/graphql",
+            "version": "4.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/graphql.git",
+                "reference": "8.x-4.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/graphql-8.x-4.13.zip",
+                "reference": "8.x-4.13",
+                "shasum": "c0915da84db9446fe83ec3248e611b298c603c9a"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11",
+                "drupal/typed_data": "^1.0 || ^2.0",
+                "php": ">=8.1",
+                "webonyx/graphql-php": "^14.8.0"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3.30",
+                "drupal/node-node": "*",
+                "drupal/redirect": "^1.0",
+                "jangregor/phpstan-prophecy": "^2 || ^1",
+                "phpstan/phpstan-deprecation-rules": "^2 || ^1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-4.13",
+                    "datestamp": "1757422052",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "fubhy",
+                    "homepage": "https://www.drupal.org/user/761344"
+                },
+                {
+                    "name": "hideaway",
+                    "homepage": "https://www.drupal.org/user/741876"
+                },
+                {
+                    "name": "joaogarin",
+                    "homepage": "https://www.drupal.org/user/612814"
+                },
+                {
+                    "name": "kingdutch",
+                    "homepage": "https://www.drupal.org/user/1868952"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                },
+                {
+                    "name": "luigisa",
+                    "homepage": "https://www.drupal.org/user/1022312"
+                },
+                {
+                    "name": "pmelab",
+                    "homepage": "https://www.drupal.org/user/555322"
+                }
+            ],
+            "description": "Exposes your Drupal data model through a GraphQL schema.",
+            "homepage": "http://drupal.org/project/graphql",
+            "support": {
+                "source": "https://git.drupalcode.org/project/graphql"
+            }
+        },
+        {
+            "name": "drupal/graphql_compose",
+            "version": "2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/graphql_compose.git",
+                "reference": "2.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/graphql_compose-2.4.1.zip",
+                "reference": "2.4.1",
+                "shasum": "a58ccdbbf93aea9bc1da439ad8a4693573f6fe7b"
+            },
+            "require": {
+                "doctrine/inflector": "^2",
+                "drupal/core": "^10.2 || ^11",
+                "drupal/graphql": "^4.9",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "drupal/address": "^2",
+                "drupal/backward_compatibility": "^1",
+                "drupal/block_field": "^1",
+                "drupal/core-layout_builder": "*",
+                "drupal/double_field": "^4",
+                "drupal/dynamic_entity_reference": "^3",
+                "drupal/eck": "^2",
+                "drupal/geofield": "^1",
+                "drupal/graphql_compose_blocks": "*",
+                "drupal/graphql_compose_edges": "*",
+                "drupal/graphql_compose_layouts": "*",
+                "drupal/graphql_compose_routes": "*",
+                "drupal/layout_paragraphs": "^2",
+                "drupal/link_attributes": "^2",
+                "drupal/menu_item_extras": "^3",
+                "drupal/menu_link_attributes": "^1",
+                "drupal/metatag": "^2",
+                "drupal/paragraphs": "^1",
+                "drupal/redirect": "^1",
+                "drupal/schema_metatag": "^3",
+                "drupal/search_api": "^1",
+                "drupal/social_media_links": "^2",
+                "drupal/svg_image": "^3",
+                "drupal/token": "^1",
+                "drupal/triples_field": "^1",
+                "drupal/viewfield": "^3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.4.1",
+                    "datestamp": "1763681644",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "almunnings",
+                    "homepage": "https://www.drupal.org/user/2251362"
+                },
+                {
+                    "name": "jmolivas",
+                    "homepage": "https://www.drupal.org/user/678770"
+                }
+            ],
+            "description": "Toolkit for generating GraphQL schemas in Drupal.",
+            "homepage": "http://drupal.org/project/graphql_compose",
+            "support": {
+                "source": "http://cgit.drupalcode.org/graphql_compose",
+                "issues": "https://www.drupal.org/project/issues/graphql_compose"
+            }
+        },
+        {
+            "name": "drupal/graphql_core_schema",
+            "version": "1.0.26",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/graphql_core_schema.git",
+                "reference": "1.0.26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/graphql_core_schema-1.0.26.zip",
+                "reference": "1.0.26",
+                "shasum": "41936c6eb76362dede74d383878993c0d46945e2"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10 || ^11",
+                "drupal/graphql": "^4",
+                "php": "^8.1",
+                "symfony/string": "^5.4 || ^6 || ^7"
+            },
+            "require-dev": {
+                "drupal/environment_indicator": "*",
+                "drupal/graphql": "*",
+                "drupal/masquerade": "*",
+                "drupal/media": "*",
+                "drupal/metatag": "*",
+                "drupal/rokka": "*",
+                "drupal/schema_metatag": "*",
+                "drupal/tablefield": "*",
+                "drupal/telephone_validation": "*",
+                "drupal/translatable_config_pages": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.26",
+                    "datestamp": "1775636004",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ayalon",
+                    "homepage": "https://www.drupal.org/user/419226"
+                },
+                {
+                    "name": "czigor",
+                    "homepage": "https://www.drupal.org/user/826222"
+                },
+                {
+                    "name": "dulnan",
+                    "homepage": "https://www.drupal.org/user/3652792"
+                },
+                {
+                    "name": "pfrenssen",
+                    "homepage": "https://www.drupal.org/user/382067"
+                },
+                {
+                    "name": "siegrist",
+                    "homepage": "https://www.drupal.org/user/3604748"
+                },
+                {
+                    "name": "tcrawford",
+                    "homepage": "https://www.drupal.org/user/3642990"
+                }
+            ],
+            "description": "Provides an schema generator for Drupal GraphQL 4.0.",
+            "homepage": "https://www.drupal.org/project/graphql_core_schema",
+            "support": {
+                "source": "https://git.drupalcode.org/project/graphql_core_schema"
+            }
+        },
+        {
             "name": "drupal/hook_event_dispatcher",
             "version": "4.2.0",
             "source": {
@@ -3353,6 +3680,87 @@
             }
         },
         {
+            "name": "drupal/paragraphs",
+            "version": "1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/paragraphs.git",
+                "reference": "8.x-1.20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.20.zip",
+                "reference": "8.x-1.20",
+                "shasum": "68051cc8c025aa3f62fd44a219d158361928a4ad"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/entity_reference_revisions": "~1.3"
+            },
+            "require-dev": {
+                "drupal/block_field": "1.x-dev",
+                "drupal/diff": "1.x-dev",
+                "drupal/entity_browser": "2.x-dev",
+                "drupal/entity_usage": "2.x-dev",
+                "drupal/feeds": "^3",
+                "drupal/field_group": "3.x-dev",
+                "drupal/inline_entity_form": "3.x-dev",
+                "drupal/paragraphs-paragraphs_library": "*",
+                "drupal/replicate": "1.x-dev",
+                "drupal/search_api": "^1",
+                "drupal/search_api_db": "*"
+            },
+            "suggest": {
+                "drupal/entity_browser": "Recommended for an improved user experience when using the Paragraphs library module"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.20",
+                    "datestamp": "1767269542",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "frans",
+                    "homepage": "https://www.drupal.org/user/514222"
+                },
+                {
+                    "name": "jeroen.b",
+                    "homepage": "https://www.drupal.org/user/1853532"
+                },
+                {
+                    "name": "jstoller",
+                    "homepage": "https://www.drupal.org/user/99012"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                }
+            ],
+            "description": "Enables the creation of Paragraphs entities.",
+            "homepage": "https://www.drupal.org/project/paragraphs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/paragraphs"
+            }
+        },
+        {
             "name": "drupal/profile",
             "version": "1.14.0",
             "source": {
@@ -3705,6 +4113,55 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
+            "name": "drupal/typed_data",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/typed_data.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "600cb9527dd93b200355f57ad4da71172ee5f6dc"
+            },
+            "require": {
+                "drupal/core": "^10.3 | ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.1",
+                    "datestamp": "1728332112",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "tr",
+                    "homepage": "https://www.drupal.org/user/202830"
+                }
+            ],
+            "description": "Extends the core Typed Data API with new APIs and features.",
+            "homepage": "https://www.drupal.org/project/typed_data",
+            "support": {
+                "source": "https://git.drupalcode.org/project/typed_data",
+                "issues": "https://www.drupal.org/project/issues/typed_data"
             }
         },
         {
@@ -9968,6 +10425,71 @@
                 "source": "https://github.com/webflo/drupal-finder/tree/1.3.1"
             },
             "time": "2024-06-28T13:45:36+00:00"
+        },
+        {
+            "name": "webonyx/graphql-php",
+            "version": "14.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "d9c2fdebc6aa01d831bc2969da00e8588cffef19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d9c2fdebc6aa01d831bc2969da00e8588cffef19",
+                "reference": "d9c2fdebc6aa01d831bc2969da00e8588cffef19",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^7.1 || ^8"
+            },
+            "require-dev": {
+                "amphp/amp": "^2.3",
+                "doctrine/coding-standard": "^6.0",
+                "nyholm/psr7": "^1.2",
+                "phpbench/phpbench": "^1.2",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.82",
+                "phpstan/phpstan-phpunit": "0.12.18",
+                "phpstan/phpstan-strict-rules": "0.12.9",
+                "phpunit/phpunit": "^7.2 || ^8.5",
+                "psr/http-message": "^1.0",
+                "react/promise": "2.*",
+                "simpod/php-coveralls-mirror": "^3.0"
+            },
+            "suggest": {
+                "psr/http-message": "To use standard GraphQL server",
+                "react/promise": "To leverage async resolving on React PHP platform"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP port of GraphQL reference implementation",
+            "homepage": "https://github.com/webonyx/graphql-php",
+            "keywords": [
+                "api",
+                "graphql"
+            ],
+            "support": {
+                "issues": "https://github.com/webonyx/graphql-php/issues",
+                "source": "https://github.com/webonyx/graphql-php/tree/14.x"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/webonyx-graphql-php",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-07-05T14:23:37+00:00"
         },
         {
             "name": "yethee/tiktoken",

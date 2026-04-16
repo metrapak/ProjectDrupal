@@ -7,11 +7,11 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_test
     - node.type.article
   module:
+    - entity_reference_revisions
     - layout_builder
-    - layout_discovery
-    - system
     - user
 third_party_settings:
   layout_builder:
@@ -23,7 +23,16 @@ id: node.article.default
 targetEntityType: node
 bundle: article
 mode: default
-content: {  }
+content:
+  field_test:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   comment: true

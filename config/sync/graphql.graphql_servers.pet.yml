@@ -1,0 +1,89 @@
+uuid: 19b5fc65-1afc-4c07-b02c-f4fe3dcc3b46
+langcode: en
+status: true
+dependencies: {  }
+name: pet
+label: Pet
+endpoint: /graphql
+debug_flag: 0
+schema: core_composable
+caching: true
+batching: true
+disable_introspection: false
+query_depth: null
+query_complexity: null
+schema_configuration:
+  core_composable:
+    extensions:
+      entity_query: entity_query
+    generate_value_fields: 0
+    entity_base_fields:
+      fields:
+        accessCheck: accessCheck
+        entityBundle: entityBundle
+        entityTypeId: entityTypeId
+        getConfigTarget: getConfigTarget
+        isNew: isNew
+        label: label
+        langcode: langcode
+        referencedEntities: referencedEntities
+        toArray: toArray
+        uriRelationships: uriRelationships
+        uuid: uuid
+    enabled_entity_types:
+      node: 1
+      paragraph: 1
+    fields:
+      node:
+        body: body
+        changed: changed
+        comment: comment
+        created: created
+        default_langcode: default_langcode
+        field_image: field_image
+        field_tags: field_tags
+        field_test: field_test
+        menu_link: menu_link
+        nid: nid
+        path: path
+        promote: promote
+        revision_default: revision_default
+        revision_log: revision_log
+        revision_timestamp: revision_timestamp
+        revision_translation_affected: revision_translation_affected
+        revision_uid: revision_uid
+        status: status
+        sticky: sticky
+        title: title
+        type: type
+        uid: uid
+        vid: vid
+      paragraph:
+        behavior_settings: behavior_settings
+        created: created
+        default_langcode: default_langcode
+        field_media: field_media
+        field_text: field_text
+        parent_field_name: parent_field_name
+        parent_id: parent_id
+        parent_type: parent_type
+        revision_default: revision_default
+        revision_id: revision_id
+        revision_translation_affected: revision_translation_affected
+        status: status
+        type: type
+    bundles:
+      node:
+        article:
+          enabled: true
+          type_name: NodeArticle
+        page:
+          enabled: true
+          type_name: NodePage
+      paragraph:
+        test:
+          enabled: true
+          type_name: ParagraphTest
+persisted_queries_settings:
+  automatic_persisted_query:
+    weight: 0

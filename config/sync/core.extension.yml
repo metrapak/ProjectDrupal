@@ -46,6 +46,8 @@ module:
   file: 0
   filter: 0
   gemini_provider: 0
+  graphql: 0
+  graphql_core_schema: 0
   help: 0
   history: 0
   hook_event_dispatcher: 0
@@ -55,6 +57,8 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   migrate: 0
@@ -83,12 +87,14 @@ module:
   text: 0
   token: 0
   toolbar: 0
+  typed_data: 0
   update: 0
   upgrade_status: 0
   user: 0
   users_data_import_from_csv: 0
   views_ui: 0
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   claro: 0

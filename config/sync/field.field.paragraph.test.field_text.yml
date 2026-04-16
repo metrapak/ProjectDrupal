@@ -1,0 +1,22 @@
+uuid: 60d76ea5-962a-444b-ad73-c7d77ad02f46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.test
+  module:
+    - text
+id: paragraph.test.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: test
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

@@ -1,0 +1,31 @@
+uuid: 3da71c17-6bfe-491d-ba40-ffe6226fc545
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test
+    - node.type.article
+    - paragraphs.paragraphs_type.test
+  module:
+    - entity_reference_revisions
+id: node.article.field_test
+field_name: field_test
+entity_type: node
+bundle: article
+label: Test
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      test: test
+    negate: 0
+    target_bundles_drag_drop:
+      test:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
